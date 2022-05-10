@@ -15,4 +15,6 @@ For national positions, `rs` entries with `cc` fields and their respective posit
 - `"cc": 5589` - Senator
 - `"cc": 11172` - Partylist
 
+Respective `cc` codes above can be queried to `https://2022electionresults.comelec.gov.ph/data/contests/XXXXX.json` where `XXXXX` is the `cc` field in the results at Step 2.
+
 For statistics regarding vote status - abstentions, misfeeds, overvotes and other relevant data, the `cos` entries reflect the respective status at `cn` at each position denoted by their `cc`.
