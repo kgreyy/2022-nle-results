@@ -6,7 +6,7 @@
 Data at the clustered precinct level may be scraped from `https://2022electionresults.comelec.gov.ph/`
 
 Given the [2022 National and Local Elections Project of Precincts](https://comelec.gov.ph/index.html?r=2022NLE/ProjectOfPrecincts) dataset converted into CSV for convenience (`2022NLEPOP.csv`),
-1. the `vbc` for precinct level results may be queried from `https://2022electionresults.comelec.gov.ph/data/regions/static_precincts_XXXX` where `XXXX` are the first four digits of the `precinct_id`
+1. the `vbc` for precinct level results may be queried from `https://2022electionresults.comelec.gov.ph/data/regions/static_precincts_XXXX.json` where `XXXX` are the first four digits of the `precinct_id`
 2. the results may be queried from `https://2022electionresults.comelec.gov.ph/data/results/XXX/XXXYYY.json` where `XXXYYY` corresponds to the `vbc` (first three and last three digits respectively) under the `rs` field
 
 For national positions, `rs` entries with `cc` fields and their respective positions are shown below:
